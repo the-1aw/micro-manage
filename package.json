@@ -1,0 +1,12 @@
+{
+  "name": "micro-manage",
+  "version": "0.0.1",
+  "description": "Microservices Manager",
+  "main": "cli.js",
+  "repository": "git@github.com:the-1aw/micro-manage.git",
+  "author": "the-1aw",
+  "license": "MIT",
+  "bin": {
+    "micro-manage": "./cli.js"
+  }
+}
