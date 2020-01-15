@@ -7,6 +7,14 @@
   "author": "the-1aw",
   "license": "MIT",
   "bin": {
-    "micro-manage": "./cli.js"
-  }
+    "micro-manage": "./bin/micro-manager.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "microservices",
+    "management"
+  ]
 }
