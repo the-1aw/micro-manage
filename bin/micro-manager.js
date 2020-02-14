@@ -1,5 +1,10 @@
 #!/usr/bin/env node
+const program = require('commander');
 
-const microManager = require("../src");
+const microManager = require("../lib");
+const currentVersion = require('../package.json').version;
 
-microManager();
+program.version(currentVersion);
+
+program.parse(process.argv);
+

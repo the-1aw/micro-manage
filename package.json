@@ -16,5 +16,8 @@
     "cli",
     "microservices",
     "management"
-  ]
+  ],
+  "dependencies": {
+    "commander": "^4.1.1"
+  }
 }
