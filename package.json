@@ -9,9 +9,6 @@
   "bin": {
     "micro-manage": "./bin/micro-manager.js"
   },
-  "scripts": {
-    "lint": "eslint --fix"
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
