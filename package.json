@@ -1,6 +1,6 @@
 {
   "name": "@the-1aw/micro-manage",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Microservices Manager",
   "main": "cli.js",
   "repository": "git@github.com:the-1aw/micro-manage.git",
