@@ -1,6 +1,6 @@
 {
   "name": "@the-1aw/micro-manage",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Microservices Manager",
   "main": "cli.js",
   "repository": "git@github.com:the-1aw/micro-manage.git",
@@ -8,6 +8,9 @@
   "license": "MIT",
   "bin": {
     "micro-manage": "./bin/micro-manager.js"
+  },
+  "scripts": {
+    "postversion": "git push --tags && yarn publish . --tag $npm_package_version && git push && echo \"Successfully released version $npm_package_version!\""
   },
   "husky": {
     "hooks": {
