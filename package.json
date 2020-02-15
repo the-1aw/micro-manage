@@ -34,7 +34,6 @@
   "dependencies": {
     "commander": "^4.1.1",
     "inquirer": "^7.0.4",
-    "pkg-dir": "^4.2.0",
     "yaml": "^1.7.2"
   },
   "devDependencies": {
