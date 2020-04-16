@@ -3,19 +3,21 @@
 CLI tool to manage your microserices architecture
 
 # Install
-Install using npm or yarn:
+Install using:
 ```bash
+#npm:
 npm install -g @the-1aw/micro-manage
 
+#yarn:
 yarn global add @the-1aw/micro-manage
 ```
 
 Then you can either use:
 ```bash
-LONG VERSION:
+#LONG VERSION:
   micro-manage ...args
-or
-SHORT VERSION:
+#or
+#SHORT VERSION:
   mm ...args
 ```
 
