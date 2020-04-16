@@ -16,8 +16,7 @@ Then you can either use:
 ```bash
 #LONG VERSION:
   micro-manage ...args
-#or
-#SHORT VERSION:
+#or SHORT VERSION:
   mm ...args
 ```
 
