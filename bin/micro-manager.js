@@ -10,4 +10,8 @@ program.command('init')
   .description('initialize micro-manage and create .mmrc')
   .action(microManage.init);
 
+program.command('env <envName>')
+  .description('setup services envirements')
+  .action(microManage.env);
+
 program.parse(process.argv);
