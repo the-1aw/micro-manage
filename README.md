@@ -10,4 +10,18 @@ npm install -g @the-1aw/micro-manage
 yarn global add @the-1aw/micro-manage
 ```
 
+Then you can either use:
+```bash
+LONG VERSION:
+  micro-manage ...args
+or
+SHORT VERSION:
+  mm ...args
+```
+
 # Configuration
+
+To run micro-manage configuration prompt use:
+```bash
+  micro-manage init
+```
